@@ -1,0 +1,31 @@
+cd C:\Program Files\Google\Chrome Beta\Application
+chrome.exe https://www.yepdesk.com/event/6411b8a746e0fb000186b8d7/manage-event/attendees
+chrome.exe https://www.yepdesk.com/event/6411b9a246e0fb000186c15c/manage-event/attendees
+chrome.exe https://www.yepdesk.com/event/6411ba8e46e0fb000186c860/manage-event/attendees
+chrome.exe https://www.yepdesk.com/event/6412d89246e0fb000192f1a3/manage-event/attendees
+chrome.exe https://www.yepdesk.com/event/6414bcb046e0fb0001ae7c35/manage-event/attendees
+chrome.exe https://www.yepdesk.com/event/6414c5d046e0fb0001aec4c6/manage-event/attendees
+chrome.exe https://www.yepdesk.com/event/6414c83946e0fb0001aecfd8/manage-event/attendees
+chrome.exe https://www.yepdesk.com/event/6414ca4346e0fb0001aed992/manage-event/attendees
+chrome.exe https://www.yepdesk.com/event/6414cbaa46e0fb0001aee23d/manage-event/attendees
+chrome.exe https://www.yepdesk.com/event/641c97c246e0fb0001fd7c88/manage-event/attendees
+chrome.exe https://www.yepdesk.com/event/641ca66346e0fb0001fdaf56/manage-event/attendees
+chrome.exe https://www.yepdesk.com/event/6411b85046e0fb000186b490/manage-event/attendees
+chrome.exe https://www.yepdesk.com/event/6414ad7b46e0fb0001ad8bc4/manage-event/attendees
+chrome.exe https://www.yepdesk.com/event/6411b68e46e0fb000186a446/manage-event/attendees
+chrome.exe https://www.yepdesk.com/event/6411b7b746e0fb000186b14e/manage-event/attendees
+chrome.exe https://www.yepdesk.com/event/6411b80a46e0fb000186b2a6/manage-event/attendees
+chrome.exe https://www.yepdesk.com/event/6411bbc246e0fb000186d578/manage-event/attendees
+chrome.exe https://www.yepdesk.com/event/6411bc3546e0fb000186d936/manage-event/attendees
+chrome.exe https://www.yepdesk.com/event/6411bc7c46e0fb000186d9ee/manage-event/attendees
+chrome.exe https://www.yepdesk.com/event/6414b8e246e0fb0001ae5714/manage-event/attendees
+chrome.exe https://www.yepdesk.com/event/6414c00346e0fb0001aea2dd/manage-event/attendees
+chrome.exe https://www.yepdesk.com/event/6414c43d46e0fb0001aebd2b/manage-event/attendees
+chrome.exe https://www.yepdesk.com/event/641f412646e0fb00010dd213/manage-event/attendees
+chrome.exe https://www.yepdesk.com/event/641f4e8b46e0fb00010df3d6/manage-event/attendees
+chrome.exe https://www.yepdesk.com/event/641f5d2f46e0fb00010e0c5d/manage-event/attendees
+chrome.exe https://www.yepdesk.com/event/6420903246e0fb0001133160/manage-event/attendees
+chrome.exe https://www.yepdesk.com/event/6420ae5f46e0fb0001135aa5/manage-event/attendees
+chrome.exe https://www.yepdesk.com/event/6420b03046e0fb0001135d53/manage-event/attendees
+
+
