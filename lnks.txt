@@ -28,4 +28,5 @@ chrome.exe https://www.yepdesk.com/event/6420903246e0fb0001133160/manage-event/a
 chrome.exe https://www.yepdesk.com/event/6420ae5f46e0fb0001135aa5/manage-event/attendees
 chrome.exe https://www.yepdesk.com/event/6420b03046e0fb0001135d53/manage-event/attendees
 
+exit
 

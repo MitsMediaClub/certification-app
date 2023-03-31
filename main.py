@@ -1,5 +1,10 @@
 from PIL import Image, ImageDraw, ImageFont
 import csv
+import time
+
+start = time.time()
+
+
 
 def create_image(name, dept, prize,house, event):
     with Image.open("./varnam_template.png").convert("RGBA") as base:
@@ -12,23 +17,26 @@ def create_image(name, dept, prize,house, event):
         _,_,w,h = fnt.getbbox(name)
         d = ImageDraw.Draw(txt)
 
-        d.text(((W-w)/2,(H-h-150)/2), name, font=fnt, fill="black")
+        d.text(((W-w)/2,(H-h)/2), name, font=fnt, fill="black")
         
-        d.text((2045, 2945), dept, font=fnt1, fill=(0, 0, 0, 255))
-        d.text((3584, 2954), prize, font=fnt1, fill=(0, 0, 0, 255))
-        d.text(((W-w)/2-250,(H-h+1800)/2), event, font=fnt1, fill=(215, 25, 32, 255))
+        d.text((1900, 2945), dept.upper(), font=fnt1, fill=(0, 0, 0, 255))
+        d.text((3584, 2954), prize.upper(), font=fnt1, fill=(0, 0, 0, 255))
+        d.text(((W-w)/2+400,3190), event, font=fnt1, fill=(215, 25, 32, 255))
+        d.text(((W-w)/2+500,3370), f"{house} house".upper(), font=fnt1, fill=(0, 0, 0, 255))
         
         
         out = Image.alpha_composite(base, txt)
-        out.save(fp=f"./output/{name}.png", format="PNG")
+        out.save(fp=f"./output/{name}.png", format="PNG", compress_level=1)
 
 
 
-create_image("HariY", "S4 CSAI", "First", "ENGLISH HINDI (GROUP)")
+# create_image("HariY", "S4 CSAI", "First","Green", "ENGLISH HINDI (GROUP)")
 
 
-with open ("./varnam.csv", "r") as f:
+with open ("details.csv", "r") as f:
     reader = csv.reader(f)
     for row in reader:
         create_image(row[0], row[1], row[2], row[3], row[4])
+        end = time.time()
+        print(f"{end - start}s")
         
